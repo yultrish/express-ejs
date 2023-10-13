@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/home.css">
+
+<header id="welcome-section">
+    <div class="sidebar">
+    <%- include('../layouts/sidebar', {PageName: 'home'}) %>
+    </div>
+    
+<h1>Hello !</h1>
+<p>My name is Jibola</p>
+<p>and I am a Web Developer</p>
+</header>
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects-container">
+    <a href="https://codepen.io/FlorinPop17/full/WNeggor" target="_blank" class="project-tile">
+        <img src="https://www.florin-pop.com/images/100Days100PRojects/Day%20001.jpg" alt="Random Meal Generator">
+            <p>Random Meal Generator</p>
+        </a>
+
+        <a href="https://codepen.io/FlorinPop17/full/BaBePej" target="_blank" class="project-tile">
+            <img src="https://www.florin-pop.com/images/100Days100PRojects/Day%20013.jpg" alt="Password Generator">
+                <p>Password Generator</p>
+            </a>
+
+            <div>
+    <%- include('../layouts/footer') %>
+</div>
+
+<script src="js/home.js"></script>
+
+            
